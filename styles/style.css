@@ -1,0 +1,62 @@
+body {
+    margin: 0;
+    background-color: #1e1e1e;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+}
+
+h1, h2, h3, h4, h5, h6, p, ul, ol, blockquote {
+    margin: 0;
+    padding: 0;
+}
+
+.content-section {
+    width: 360px;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+.content-section_theme_dark {
+    background-color: #000000;
+}
+
+.content-section_theme_bright {
+    background-color: #FEE42A;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 24px 20px;
+}
+
+.header__logo-image {
+    width: 78px;
+}
+
+.header__menu-list {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.header__menu-link {
+    color: white;
+}
+
+.header__menu-item_active .header__menu-link {
+    text-decoration: none;
+}
+
+.intro {
+    padding: 0;
+}
+
+.reasons {
+    padding: 40px 20px;
+}
+
+.how-to {
+    padding: 0;
+}
