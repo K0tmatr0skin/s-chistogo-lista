@@ -49,7 +49,8 @@ h1, h2, h3, h4, h5, h6, p, ul, ol, blockquote {
     text-decoration: none;
 }
 
-.cover {
+.cover {    
+    padding: 7px 20px 5px;
     min-height: 221px;
     background-image: url('/images/cover.svg');
     background-repeat: no-repeat;
@@ -57,12 +58,16 @@ h1, h2, h3, h4, h5, h6, p, ul, ol, blockquote {
     background-position: right bottom;
 }
 
-.cover__title {
-    padding-left: 20px;
+.cover__title {    
+    line-height: 100%;
     font-family: 'EB Garamond', sans-serif;
     font-size: 72px;
     font-weight: 400;    
     color: white;
+}
+
+.cover__title .accent-span.text-right {
+    padding-right: 24px;
 }
 
 .accent-span {    
@@ -86,11 +91,13 @@ h1, h2, h3, h4, h5, h6, p, ul, ol, blockquote {
 }
 
 .intro__heading {
+    line-height: 120%;
+    color: #CCCCCC; 
     display: flex;
     justify-content: space-between;
 }
 
-.intro__title {      
+.intro__title {
     font-size: 16px;
     font-weight: 400;
 }
@@ -100,6 +107,7 @@ h1, h2, h3, h4, h5, h6, p, ul, ol, blockquote {
 }
 
 .intro__main-text {
+    line-height: 21.6px;
     display: flex;
     flex-direction: column;
     gap: 24px;
@@ -113,9 +121,14 @@ h1, h2, h3, h4, h5, h6, p, ul, ol, blockquote {
 }
 
 .content-section__subtitle {
+    line-height: 115%;
     font-family: 'EB Garamond', sans-serif;
     font-size: 28px;
     font-weight: 500;
+}
+
+.content-section__introduction {
+    line-height: 27px;
 }
 
 .content-section__list {
@@ -126,7 +139,7 @@ h1, h2, h3, h4, h5, h6, p, ul, ol, blockquote {
 }
 
 .content-section__list-item {
-    
+    line-height: 21.6px;
 }
 
 .content-section__list-accent {
