@@ -50,7 +50,6 @@ h1, h2, h3, h4, h5, h6, p, ul, ol, blockquote {
 }
 
 .cover {
-    padding-left: 20px;
     min-height: 221px;
     background-image: url('/images/cover.svg');
     background-repeat: no-repeat;
@@ -58,12 +57,16 @@ h1, h2, h3, h4, h5, h6, p, ul, ol, blockquote {
     background-position: right bottom;
 }
 
-.accent-span {
+.cover__title {
+    padding-left: 20px;
     font-family: 'EB Garamond', sans-serif;
     font-size: 72px;
-    font-weight: 400;
-    display: block;
+    font-weight: 400;    
     color: white;
+}
+
+.accent-span {    
+    display: block;
 }
 
 .text-center {
@@ -75,11 +78,59 @@ h1, h2, h3, h4, h5, h6, p, ul, ol, blockquote {
 }
 
 .intro {
-    padding: 0;
+    padding: 30px 20px 38px;
+    color: #F5F5F5;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.intro__heading {
+    display: flex;
+    justify-content: space-between;
+}
+
+.intro__title {      
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.intro__date {
+    white-space: nowrap;
+}
+
+.intro__main-text {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
 }
 
 .reasons {
     padding: 40px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.content-section__subtitle {
+    font-family: 'EB Garamond', sans-serif;
+    font-size: 28px;
+    font-weight: 500;
+}
+
+.content-section__list {
+    padding-left: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.content-section__list-item {
+    
+}
+
+.content-section__list-accent {
+    font-weight: bold;
 }
 
 .how-to {
