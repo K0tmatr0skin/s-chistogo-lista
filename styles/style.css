@@ -49,7 +49,7 @@ h1, h2, h3, h4, h5, h6, p, ul, ol, blockquote {
     text-decoration: none;
 }
 
-.cover {    
+.cover {
     padding: 7px 20px 5px;
     min-height: 221px;
     background-image: url('/images/cover.svg');
@@ -58,11 +58,11 @@ h1, h2, h3, h4, h5, h6, p, ul, ol, blockquote {
     background-position: right bottom;
 }
 
-.cover__title {    
+.cover__title {
     line-height: 100%;
     font-family: 'EB Garamond', sans-serif;
     font-size: 72px;
-    font-weight: 400;    
+    font-weight: 400;
     color: white;
 }
 
@@ -70,7 +70,7 @@ h1, h2, h3, h4, h5, h6, p, ul, ol, blockquote {
     padding-right: 24px;
 }
 
-.accent-span {    
+.accent-span {
     display: block;
 }
 
@@ -92,7 +92,7 @@ h1, h2, h3, h4, h5, h6, p, ul, ol, blockquote {
 
 .intro__heading {
     line-height: 120%;
-    color: #CCCCCC; 
+    color: #CCCCCC;
     display: flex;
     justify-content: space-between;
 }
