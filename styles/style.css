@@ -18,6 +18,7 @@ h1, h2, h3, h4, h5, h6, p, ul, ol, blockquote {
 
 .content-section_theme_dark {
     background-color: #000000;
+    color: white;
 }
 
 .content-section_theme_bright {
@@ -63,7 +64,6 @@ h1, h2, h3, h4, h5, h6, p, ul, ol, blockquote {
     font-family: 'EB Garamond', sans-serif;
     font-size: 72px;
     font-weight: 400;
-    color: white;
 }
 
 .cover__title .accent-span.text-right {
@@ -107,7 +107,7 @@ h1, h2, h3, h4, h5, h6, p, ul, ol, blockquote {
 }
 
 .intro__main-text {
-    line-height: 21.6px;
+    line-height: 135%;
     display: flex;
     flex-direction: column;
     gap: 24px;
@@ -128,7 +128,8 @@ h1, h2, h3, h4, h5, h6, p, ul, ol, blockquote {
 }
 
 .content-section__introduction {
-    line-height: 27px;
+    line-height: 135%;
+    font-size: 20px;
 }
 
 .content-section__list {
@@ -139,7 +140,7 @@ h1, h2, h3, h4, h5, h6, p, ul, ol, blockquote {
 }
 
 .content-section__list-item {
-    line-height: 21.6px;
+    line-height: 135%;
 }
 
 .content-section__list-accent {
@@ -147,5 +148,80 @@ h1, h2, h3, h4, h5, h6, p, ul, ol, blockquote {
 }
 
 .how-to {
-    padding: 0;
+    padding: 40px 20px 60px;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.cards-list {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.card {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    border-radius: 30px;
+}
+
+.card_theme_dark {
+    background-color: #343434;
+}
+
+.card_theme_bright {
+    background-color: #FEE42A;    
+    color: black;
+}
+
+.card__author {
+    display: flex;
+    flex-direction: column;
+}
+
+.card__author-photo {
+    width: 100px;
+    margin-bottom: 8px;
+}
+
+.card__author-name {
+    font-weight: bold;
+}
+
+.card__title {   
+    font-family: 'EB Garamond', sans-serif;
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.card__content {    
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.card__text {
+    line-height: 135%;
+}
+
+.footer {
+    border-top: 1px solid #FEE42A; 
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer__links {
+    display: flex;
+    column-gap: 16px;
+}
+
+.footer__links-item {
+    color: white;
+    text-decoration: none;
+    
 }
