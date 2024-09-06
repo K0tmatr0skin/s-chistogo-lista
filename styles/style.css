@@ -174,7 +174,7 @@ h1, h2, h3, h4, h5, h6, p, ul, ol, blockquote {
 }
 
 .card_theme_bright {
-    background-color: #FEE42A;    
+    background-color: #FEE42A;
     color: black;
 }
 
@@ -192,13 +192,13 @@ h1, h2, h3, h4, h5, h6, p, ul, ol, blockquote {
     font-weight: bold;
 }
 
-.card__title {   
+.card__title {
     font-family: 'EB Garamond', sans-serif;
     font-size: 22px;
     font-weight: 500;
 }
 
-.card__content {    
+.card__content {
     display: flex;
     flex-direction: column;
     gap: 8px;
@@ -209,7 +209,7 @@ h1, h2, h3, h4, h5, h6, p, ul, ol, blockquote {
 }
 
 .footer {
-    border-top: 1px solid #FEE42A; 
+    border-top: 1px solid #FEE42A;
     padding: 20px;
     display: flex;
     justify-content: space-between;
