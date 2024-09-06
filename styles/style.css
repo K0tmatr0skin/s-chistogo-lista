@@ -51,7 +51,7 @@ h1, h2, h3, h4, h5, h6, p, ul, ol, blockquote {
 }
 
 .cover {
-    padding: 0 20px 5px;
+    padding: 7px 20px 5px;
     min-height: 200px;
     background-image: url('/images/cover.svg');
     background-repeat: no-repeat;
@@ -67,7 +67,7 @@ h1, h2, h3, h4, h5, h6, p, ul, ol, blockquote {
 }
 
 .cover__title .accent-span.text-right {
-    padding-right: 24px;
+    padding-right: 4px;
 }
 
 .accent-span {
@@ -193,6 +193,7 @@ h1, h2, h3, h4, h5, h6, p, ul, ol, blockquote {
 }
 
 .card__title {
+    line-height: 135%;
     font-family: 'EB Garamond', sans-serif;
     font-size: 22px;
     font-weight: 500;
