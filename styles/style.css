@@ -66,10 +66,6 @@ h1, h2, h3, h4, h5, h6, p, ul, ol, blockquote {
     font-weight: 400;
 }
 
-.cover__title .accent-span.text-right {
-    padding-right: 4px;
-}
-
 .accent-span {
     display: block;
 }
@@ -80,6 +76,10 @@ h1, h2, h3, h4, h5, h6, p, ul, ol, blockquote {
 
 .text-right {
     text-align: end;
+}
+
+.cover__title .accent-span.text-right {
+    padding-right: 4px;
 }
 
 .intro {
@@ -192,17 +192,17 @@ h1, h2, h3, h4, h5, h6, p, ul, ol, blockquote {
     font-weight: bold;
 }
 
+.card__content {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
 .card__title {
     line-height: 135%;
     font-family: 'EB Garamond', sans-serif;
     font-size: 22px;
     font-weight: 500;
-}
-
-.card__content {
-    display: flex;
-    flex-direction: column;
-    gap: 8px;
 }
 
 .card__text {
@@ -226,5 +226,5 @@ h1, h2, h3, h4, h5, h6, p, ul, ol, blockquote {
     font-size: 14px;
     line-height: 125%;
     color: white;
-    text-decoration: none;    
+    text-decoration: none;
 }
