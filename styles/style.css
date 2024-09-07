@@ -1,7 +1,7 @@
 body {
     margin: 0;
     background-color: #1e1e1e;
-    font-family: 'Inter', sans-serif;
+    font-family: 'Inter', Arial, sans-serif;
     font-weight: 400;
 }
 
@@ -61,7 +61,7 @@ h1, h2, h3, h4, h5, h6, p, ul, ol, blockquote {
 
 .cover__title {
     line-height: 100%;
-    font-family: 'EB Garamond', sans-serif;
+    font-family: 'EB Garamond', Garamond, serif;
     font-size: 72px;
     font-weight: 400;
 }
@@ -122,7 +122,7 @@ h1, h2, h3, h4, h5, h6, p, ul, ol, blockquote {
 
 .content-section__subtitle {
     line-height: 115%;
-    font-family: 'EB Garamond', sans-serif;
+    font-family: 'EB Garamond', Garamond, serif;
     font-size: 28px;
     font-weight: 500;
 }
@@ -200,7 +200,7 @@ h1, h2, h3, h4, h5, h6, p, ul, ol, blockquote {
 
 .card__title {
     line-height: 135%;
-    font-family: 'EB Garamond', sans-serif;
+    font-family: 'EB Garamond', Garamond, serif;
     font-size: 22px;
     font-weight: 500;
 }
