@@ -133,7 +133,7 @@ h1, h2, h3, h4, h5, h6, p, ul, ol, blockquote {
 }
 
 .content-section__list {
-    padding-left: 20px;
+    padding-left: 16px;
     display: flex;
     flex-direction: column;
     gap: 16px;
@@ -217,12 +217,14 @@ h1, h2, h3, h4, h5, h6, p, ul, ol, blockquote {
 }
 
 .footer__links {
+    padding-top: 1px;
     display: flex;
     column-gap: 16px;
 }
 
 .footer__links-item {
+    font-size: 14px;
+    line-height: 125%;
     color: white;
-    text-decoration: none;
-    
+    text-decoration: none;    
 }
