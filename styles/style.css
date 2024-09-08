@@ -44,6 +44,7 @@ h1, h2, h3, h4, h5, h6, p, ul, ol, blockquote {
 
 .header__menu-link {
     color: white;
+    text-underline-offset: 2px;
 }
 
 .header__menu-item_active .header__menu-link {
@@ -217,12 +218,12 @@ h1, h2, h3, h4, h5, h6, p, ul, ol, blockquote {
 }
 
 .footer__links {
-    padding-top: 1px;
+    list-style-type: none;
     display: flex;
     column-gap: 16px;
 }
 
-.footer__links-item {
+.footer__link {
     font-size: 14px;
     line-height: 125%;
     color: white;
